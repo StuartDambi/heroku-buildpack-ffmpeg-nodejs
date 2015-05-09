@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 indent() {
   sed -u 's/^/       /'
@@ -28,7 +28,6 @@ echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:vendor/ffmpeg/lib:vendor/mp3lame/
 
 
 
-#!/usr/bin/env bash
 
 ####### Configure environment
 
